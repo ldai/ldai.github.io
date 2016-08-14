@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Start toblog finally!
+title:  Start to blog finally!
 categories: blog post
 ---
 ## Initial post, will update later
