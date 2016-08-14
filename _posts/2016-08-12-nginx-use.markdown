@@ -1,0 +1,10 @@
+---
+layout: post
+title: plan on using nginx in home cloud
+categories: microservice ssl/tls proxy load-balancer
+---
+Today I read the article from NGINX about how ngnix can be used along with containers to fulfill the scalable and high availability goals in microservice architecture. There are 12 advantages listed in the article that proves nginx is a good companion of using containers in microservice. I personally had previous experience of using nginx as elb. Actually I didn't choose to use nginx, I just happend to discovered while I peeking around EC2 elasticbeanstalk node. The followings are the couple of use I'd like to explore nginx in;
+1. as local reverse proxy, to provide better response time with caching and also ad block
+2. as SSL/TSL termination, i.e. https://www.ltai.us, to avoid the hussle of setting the keystore in jvm app.
+3. as virtual host traffic router
+4. as load balancer in front of application nodes
